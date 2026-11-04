@@ -1,0 +1,1 @@
+A red team simulates cyberattacks to test an organization's security,while a blue team defends the organization's systerms by detecting and responding to threats.
