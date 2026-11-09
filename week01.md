@@ -29,3 +29,25 @@ A desktop computer without a UPS shuts down immediately when electricity goes of
 3. Which part of the CIA Triad is affected?
 
 Availability is affected because power failure can prevent users from accessing their computers and information when needed.
+
+
+## Day 5 – Clients and Servers Around You
+
+1. Mobile Money (MoMo)
+
+- Client: My mobile phone and MoMo application.
+- Server: The MoMo service provider's server that processes transactions and requests.
+
+2. WhatsApp
+
+- Client: WhatsApp application on my phone.
+- Server: WhatsApp servers that handle and deliver messages.
+
+3. Google Search
+
+- Client: My web browser (Chrome).
+- Server: Google's servers that process searches and return results.
+
+Conclusion
+
+A client requests services or information, while a server receives the request and provides the required service or information.
