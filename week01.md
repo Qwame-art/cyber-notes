@@ -51,3 +51,6 @@ Availability is affected because power failure can prevent users from accessing 
 Conclusion
 
 A client requests services or information, while a server receives the request and provides the required service or information.
+
+
+
