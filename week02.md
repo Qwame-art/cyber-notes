@@ -126,3 +126,52 @@ Download time = 400 ÷ 230
 = 1.74 seconds
 
 Answer: Approximately 1.74 seconds.
+
+
+
+## Day 2: IP Address and Networking
+Three things about my Wi-Fi connection
+
+IPv4 Address..........10.46.181.251
+Subnet Mask...........255.255.255.0
+Default Gateway.......10.46.181.6
+
+
+Addresses in binary
+11000000.10101000.0000001.00000001
+
+
+Private or Public IP address
+IP address            classification
+192.168.0.10          private
+8.8.8.8               public
+10.1.2.3              private
+172.20.5.4            private
+172.32.0.1            public
+41.66.10.20           public
+
+
+How to identify private IP address:
+There are three main private IPv4 ranges:
+.10.0.0.0 - 10.255.255.255
+.172.16.0.0 - 172.31.255.255
+.192.168.0.0 - 192.168.255.255
+
+Ping Lab
+First test:8.8.8.8
+Time :54ms
+TTL : 115
+packets lost : 0% loss
+
+Second test: ping google.com
+Time : 168ms
+TTL : 109
+packets lost: 0% loss
+
+
+
+
+
+
+
+
