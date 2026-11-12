@@ -172,6 +172,29 @@ packets lost: 0% loss
 
 
 
+## Day 3:  How the internet works: bits, IP addresses, DNS and packets
 
+1. Spot the Fake (Look-alike Domains)
+
+Scammers may create fake domain names that look similar to the official MTN Ghana website ("mtn.com.gh") to trick users.
+
+Three examples and how to spot them:
+
+1. mtnn.com.gh
+   
+   - How to spot it: Notice the extra letter "n" in the name. The official name has only one "n" at the end of MTN.
+
+2. mtn-ghana.com.gh
+   
+   - How to spot it: Notice the additional word "ghana" and the hyphen. Always verify the official domain.
+
+3. mtn-support.com.gh
+   
+   - How to spot it: The word "support" has been added to make the domain appear trustworthy. Verify it through MTN's official communication channels.
+
+Conclusion:
+Always check website addresses carefully before entering personal information or passwords. Never trust a website simply because its name looks familiar.
+
+Note: These are illustrative examples, not verified registered domains. They should not be visited.
 
 
