@@ -23,7 +23,7 @@ The smallest value is 0 (00000000), while the largest value is 255 (11111111).
 
 ss
 
-Day 1: Binary by Hand
+##Day 2 : Binary by Hand
 
 1. Decimal to Binary Conversions
 
@@ -129,7 +129,7 @@ Answer: Approximately 1.74 seconds.
 
 
 
-## Day 2: IP Address and Networking
+## Day 3: IP Address and Networking
 Three things about my Wi-Fi connection
 
 IPv4 Address..........10.46.181.251
@@ -172,7 +172,7 @@ packets lost: 0% loss
 
 
 
-## Day 3:  How the internet works: bits, IP addresses, DNS and packets
+## Day 4:  How the internet works: bits, IP addresses, DNS and packets
 
 1. Spot the Fake (Look-alike Domains)
 
@@ -198,3 +198,79 @@ Always check website addresses carefully before entering personal information or
 Note: These are illustrative examples, not verified registered domains. They should not be visited.
 
 
+#Day 4:How the internet works: bits, IP addresses, DNS and packets
+
+ TCP vs UDP
+
+1. TCP (Transmission Control Protocol)
+
+TCP is a communication protocol that ensures data is delivered accurately and in the correct order between devices. It checks whether data has arrived successfully and retransmits missing data.
+
+Example: Web browsing (HTTPS).
+
+Why: TCP helps ensure that website information, such as text and files, arrives correctly.
+
+2. UDP (User Datagram Protocol)
+
+UDP is a communication protocol that sends data quickly without establishing a connection or guaranteeing that every packet will arrive.
+
+Example: Online video calls.
+
+Why: UDP is useful for video calls because speed and low delay are important. Losing a small amount of data is often better than experiencing delays.
+
+3. Differences between TCP and UDP
+
+TCP| UDP
+Reliable delivery| No guaranteed delivery
+Connection-oriented| Connectionless
+Generally slower| Generally faster
+Checks delivery and order| Does not guarantee order
+
+Conclusion: TCP focuses on reliable data delivery, while UDP focuses on speed and low delay.
+
+
+ Follow Your Packets
+
+1. Traceroute Lab
+
+Command used: "tracert -d 8.8.8.8"
+
+- Total number of hops: 14
+- Hop 1 IP address: 10.239.195.80
+- Default Gateway from Day 2: [10.239.195.80]
+- Does Hop 1 match my Default Gateway? Yes
+
+Observation: The packets passed through four hops before reaching Google's DNS server.
+
+
+2. Near and Far
+
+Destination 1: Google DNS (8.8.8.8)
+
+- Hop count: [14]
+- Three response times: [1905 ms  247 ms    198 ms]
+
+Destination 2: Wikipedia (wikipedia.org)
+
+- Hop count: [28]
+- Three response times: [3073 ms 267 ms   231 ms]
+
+Comparison:
+
+The server with the higher hop count has more routing steps along the path. The response times help show how long communication takes.
+
+
+3. Packet Loss Lab
+
+Command used: "ping -n 20 8.8.8.8"
+
+- Packets sent: [20]
+- Packets received: [0]
+- Packet loss: [20](100% loss),
+- Minimum time: [44ms] 
+- Maximum time: [180ms]
+- Average time: [72ms] 
+
+Observation:
+
+The ping test helps determine whether packets are successfully reaching their destination and measures the time taken for responses to return.
