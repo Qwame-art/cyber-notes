@@ -274,3 +274,52 @@ Command used: "ping -n 20 8.8.8.8"
 Observation:
 
 The ping test helps determine whether packets are successfully reaching their destination and measures the time taken for responses to return.
+
+
+
+
+
+
+## DAY 5: How the internet works: bits, IP addresses, DNS and packets
+1. Examine your Wi-fi adapter
+Wireless LAN adapter WI-FI
+Physical Address..........A0-51-0B-2A-AD-29
+DHCP Enabled..............Yes
+DHCP Server...............192.168.14.254
+Lease Obtained............Sunday,November 15,2026 2:38:01 PM
+Lease Expires.............Sunday,November 15,2026 3:08:00 PM
+DNS Servers...............10.69.110.205
+
+2. Who's on your Network?
+Interface: 10.69.110.251 --- 0x6
+a. 00-50-56-ff-1b-11
+b. 3
+
+
+Mapping My Network – Hostel Wi-Fi
+
+1. Network type: Hostel Wi-Fi.
+
+2. Router: The hostel's wireless router or access point provides internet connectivity to devices in the hostel.
+
+3. Connected devices: Devices such as laptops, smartphones, tablets and other residents' devices connect to the Wi-Fi network.
+
+4. Network topology: Star topology, assuming the devices connect through a central wireless access point.
+
+5. Description: The hostel Wi-Fi allows multiple devices to connect wirelessly and share an internet connection through the central network device.
+
+
+
+ Mapping My Network – Hostel Wi-Fi
+
+Network Type: Hostel Wi-Fi.
+
+Router: The hostel has one central Wi-Fi router that provides internet access to connected devices.
+
+Connected Devices: Laptops, smartphones, tablets and other devices belonging to hostel residents.
+
+Network Topology: Star topology.
+
+Description: The hostel uses a wireless network where multiple devices connect to one central Wi-Fi router. The router manages communication between connected devices and provides access to the internet.
+
+
