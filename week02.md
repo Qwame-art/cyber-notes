@@ -323,3 +323,4 @@ Network Topology: Star topology.
 Description: The hostel uses a wireless network where multiple devices connect to one central Wi-Fi router. The router manages communication between connected devices and provides access to the internet.
 
 
+## 6: How the internet works: bits, IP addresses, DNS and packets
