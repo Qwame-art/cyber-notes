@@ -1,5 +1,5 @@
 Week 3: Windows and files: the OS, folders, users, file signatures, hashes and searching
-## Day 1:
+## Day 1: Week 2 fixes, then what an operating system does
 The 5 Jobs of an Operating System
 1. Process Management: The operating system manages running programs and ensures they get the resources they need.
 2. Memory Management: It controls how the computer's RAM is allocated and used by different programs.
@@ -67,4 +67,35 @@ User Account Control
 UAC is a Windows security feature that asks for permission or administrator credentials before allowing certain changes that require elevated privileges.
 
 
+
+## Day 3: Files: bytes, extensions, signatures, hex and hashes
+Same Bytes, New Name
+
+a. First row of Format-Hex note.txt: 41 6B 77 61 61 62 61 0D 0A 
+
+b. first row of Format-Hex note.jpg: 41 6B 77 61 61 62 61 0D 0A
+
+c. Did renaming change any byte?
+No. Renaming did not change any byte.
+This shows that changing a file extension changes its name , not its actual contents or format.
+
+
+One Letter,New Hash
+a. Original hash(first 8 symbols):0EEA137F
+
+b. New hash after adding an exclamation mark:E37DE810
+
+c. Why is checking hashes useful for downloads?
+checking hashes helps verify that downloaded files have not been altered and match the original file provided by a trusted publisher.
+
+
+Hexadecimal by Hand 
+
+Hexadecimal        Decimal   Character
+4D                 77        M
+5A                 90        Z
+25                 37        %
+
+What is a file starting with 4D 5A
+it is commonly a Windows executable file with the MZ file signature.
 
