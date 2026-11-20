@@ -99,3 +99,51 @@ Hexadecimal        Decimal   Character
 What is a file starting with 4D 5A
 it is commonly a Windows executable file with the MZ file signature.
 
+
+## Day 4: Windows' built-in tools: processes, services, startup, registry, logs
+Identifying a Fake Svchost.exe are:
+Two ways to identify a fake svchost.exe are:
+1. Check the spelling: The legitimate Windows process is named exactly svchost.exe. Misspellings or unusual characters may indicate a suspicious file.
+
+2. Check the location: The legitimate process normally runs from C:\windows\System32. A copy running from an unexpected folder should be investigated.
+
+Conclusion: Checking the exact filename and its folder location helps identify suspicious processes.
+
+
+Windows' own tools, on your laptop
+
+System Information
+-Os Name: Microsoft Windows 11 pro
+-Version: 10.0.26300 Build 26300
+-BIOS model: UEFI
+-Secure Boot State: On
+
+Secure Boot is enable, which matches the recommended safe setting because it helps prevent unauthorized software from loading during startup.
+
+
+STARTUP APPS
+App Name            Publisher              Status
+Microsoft Teams     Microsoft             Enabled
+Mobile devices      Microsoft Windows     Enabled
+Phone Link          Microsoft Corporation  Disbled
+
+
+Event Viewer
+-Date and Time: 11/20/2026, 7:11:05 pm
+-Source : WindowsUpdateClient
+-Event ID: 20
+-Description: Event Id 20 indicates that Windows failed to install an update successfully.
+
+
+-Error Code: No error code was displayed in the general tab.
+-Meaning: Windows Update encountered an installation problem, but the specific error code was not available.
+
+
+Running Services
+-Number of running service: 135
+
+**Difference between a process and a service:**
+A process is a running program, while a service is a backgroung program that perform specific system or application tasks.
+
+
+
